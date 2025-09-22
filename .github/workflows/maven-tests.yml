@@ -2,9 +2,9 @@ name: Selenium Tests
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "selenium-saucedemo" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "selenium-saucedemo" ]
 
 jobs:
   build:
