@@ -1,3 +1,4 @@
+/*
 package Base;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -70,12 +71,12 @@ public class BaseTest {
         folder.delete();
     }
 }
+*/
 
 
 
 
-
-/*package Base;
+package Base;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -101,7 +102,7 @@ public class BaseTest
 
     }
 
-    /*@AfterMethod
+    @AfterMethod
     public void tearDown()
     {
         if (driver != null)
@@ -109,5 +110,5 @@ public class BaseTest
             driver.quit();
         }
     }
-    }*/
+    }
 
